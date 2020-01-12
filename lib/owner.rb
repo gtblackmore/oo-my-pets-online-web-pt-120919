@@ -1,3 +1,21 @@
 class Owner
-  # code goes here
+  attr_accessor :name
+  
+  def initialize(name)
+    @name = name
+    @species = "Human"
+  end
+  
+  
+  
+  def self.all
+  end
+  
+  def self.count
+  end
+  
+  def self.reset_all
+  end
+  
+
 end
