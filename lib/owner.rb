@@ -66,5 +66,7 @@ class Owner
     @dogs.clear
   end
   
+  def list_pets
+    
     
 end
