@@ -6,7 +6,8 @@ class Owner
     @species = "Human"
   end
   
-  
+  def name=(name)
+    
   
   def self.all
   end
