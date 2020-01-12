@@ -16,10 +16,6 @@ class Owner
     @name
   end
   
-  def species
-    @species = "Human"
-  end
-  
   def say_species
     puts "I am a #{species}."
   end
