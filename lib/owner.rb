@@ -1,5 +1,5 @@
 class Owner
-  attr_accessor :name
+  attr_reader :name
   
   @@all = []
   
@@ -9,7 +9,7 @@ class Owner
     @@all << name
   end
   
-  def name=(name)
+  def name
     @name
   end
   
